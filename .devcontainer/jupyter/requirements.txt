@@ -1,0 +1,5 @@
+scanpy==1.10.2
+igraph==0.11.6
+leidenalg==0.10.2
+decoupler==1.7.0
+omnipath==1.0.8

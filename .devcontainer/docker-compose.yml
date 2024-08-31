@@ -1,0 +1,12 @@
+services:
+  jupyter:
+    image: hidakakombu/jupyter:1.0
+    container_name: 'Scanpy'
+    environment:
+      - TZ= Asia/Tokyo
+    build: ./jupyter
+    working_dir: '/home/work'
+    volumes:
+      - ../jupyter:/home/work
+    stdin_open: true
+    tty: true
