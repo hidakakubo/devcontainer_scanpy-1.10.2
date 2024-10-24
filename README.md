@@ -20,3 +20,13 @@ code .
 ### コンテナ内でVSCodeを開く
 1. VSCodeの左下の水色の><ボタンを押す。
 2. 「コンテナで再度開く」(Reopen in Container)を押す
+
+
+## 使っているパッケージのバージョン
+```
+scanpy==1.10.2
+igraph==0.11.6
+leidenalg==0.10.2
+decoupler==1.7.0
+omnipath==1.0.8
+```
